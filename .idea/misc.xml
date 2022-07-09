@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Recyclerview2/app/src/main/res/drawable/btn_add_background.xml" value="0.161" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Recyclerview2/app/src/main/res/drawable/btn_edit_backgorund_black_right.xml" value="0.161" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Recyclerview2/app/src/main/res/drawable/btn_edit_backgorund_white_left.xml" value="0.161" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Recyclerview2/app/src/main/res/drawable/btn_edit_backgorund_white_right.xml" value="0.161" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Recyclerview2/app/src/main/res/drawable/btn_edit_background.xml" value="0.161" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Recyclerview2/app/src/main/res/drawable/dialog_background.xml" value="0.155" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Recyclerview2/app/src/main/res/drawable/et_background_black.xml" value="0.161" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Recyclerview2/app/src/main/res/drawable/et_background_white.xml" value="0.161" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Recyclerview2/app/src/main/res/drawable/recyclerview_background.xml" value="0.161" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Recyclerview2/app/src/main/res/drawable/recyclerview_item_background.xml" value="0.1445" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Recyclerview2/app/src/main/res/font/font.xml" value="0.28" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Recyclerview2/app/src/main/res/layout/activity_user.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Recyclerview2/app/src/main/res/layout/activity_users.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Recyclerview2/app/src/main/res/layout/changes_dialog.xml" value="0.24444444444444444" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Recyclerview2/app/src/main/res/layout/users_list_item.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

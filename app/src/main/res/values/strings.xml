@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Recyclerview</string>
+    <string name="add_info">ინფორმაციის დამატება</string>
+    <string name="name">\ სახელი</string>
+    <string name="lastname">\ გვარი</string>
+    <string name="email">\ ელ ფოსტა</string>
+    <string name="add">\ დამატება</string>
+    <string name="edit">რედაქტირება</string>
+    <string name="edit_dialog">შეცვლა</string>
+    <string name="delete">წაშლა</string>
+    <string name="name_list">სახელი:</string>
+    <string name="lastname_list">გვარი:</string>
+    <string name="email_list">ელ ფოსტა:</string>
+</resources>
