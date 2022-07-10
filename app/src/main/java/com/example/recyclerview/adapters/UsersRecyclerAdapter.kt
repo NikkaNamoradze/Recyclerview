@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.recyclerview.R
+import com.example.recyclerview.databinding.UsersListItemBinding
 import com.example.recyclerview.model.User
 
 class UsersRecyclerAdapter() :
@@ -17,28 +18,29 @@ class UsersRecyclerAdapter() :
 
     private val userList = mutableListOf<User>()
 
-    inner class UsersRecyclerViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-        var firstName: TextView = itemView.findViewById(R.id.tvFirstName)
-        var lastName: TextView = itemView.findViewById(R.id.tvLastName)
-        var email: TextView = itemView.findViewById(R.id.tvEmail)
-    }
+    inner class UsersRecyclerViewHolder(val binding: UsersListItemBinding) :
+        RecyclerView.ViewHolder(binding.root)
 
     override fun onCreateViewHolder(
         parent: ViewGroup,
         viewType: Int
     ): UsersRecyclerAdapter.UsersRecyclerViewHolder {
-        val itemView =
-            LayoutInflater.from(parent.context).inflate(R.layout.users_list_item, parent, false)
-        return UsersRecyclerViewHolder(itemView)
+        return UsersRecyclerViewHolder(
+            UsersListItemBinding.inflate(
+                LayoutInflater.from(parent.context),
+                parent,
+                false
+            )
+        )
     }
 
     override fun onBindViewHolder(
         holder: UsersRecyclerAdapter.UsersRecyclerViewHolder,
         position: Int
     ) {
-        holder.firstName.text = userList[position].firstname
-        holder.lastName.text = userList[position].lastName
-        holder.email.text = userList[position].email
+        holder.binding.tvFirstName.text = userList[position].firstname
+        holder.binding.tvLastName.text = userList[position].lastName
+        holder.binding.tvEmail.text = userList[position].email
     }
 
     override fun getItemCount() = userList.size
